@@ -16,7 +16,7 @@ namespace MVVMXamarin.Services
             return App.Current.MainPage.Navigation.PushAsync(page);
         }
 
-        internal static Task NavigationAsync(HomeTabPage homeTabPage, bool v)
+        internal static Task NavigationAsync(HomeTabbedPage homeTabPage, bool v)
         {
             throw new NotImplementedException();
         }

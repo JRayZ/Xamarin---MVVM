@@ -8,6 +8,6 @@ namespace MVVMXamarin.Services
     public interface INavigationService
     {
         Task NavigationAsync(Page page, bool navegationBar);
-        Task NavigationAsync(HomeTabPage homeTabPage, bool v);
+        Task NavigationAsync(HomeTabbedPage homeTabPage, bool v);
     }
 }
