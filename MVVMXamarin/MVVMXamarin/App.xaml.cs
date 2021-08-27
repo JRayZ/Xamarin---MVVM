@@ -13,7 +13,7 @@ namespace MVVMXamarin
 
             var login = new LoginPage();
             NavigationPage.SetHasNavigationBar(login, false);
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(login);
         }
 
         protected override void OnStart()
