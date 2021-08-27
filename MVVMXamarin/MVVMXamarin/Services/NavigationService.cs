@@ -1,6 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using MVVMXamarin.Views;
+using System;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 
@@ -15,6 +14,11 @@ namespace MVVMXamarin.Services
                 NavigationPage.SetHasNavigationBar(page, false);
             }
             return App.Current.MainPage.Navigation.PushAsync(page);
+        }
+
+        internal static Task NavigationAsync(HomeTabPage homeTabPage, bool v)
+        {
+            throw new NotImplementedException();
         }
     }
 }
