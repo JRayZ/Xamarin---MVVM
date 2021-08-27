@@ -11,42 +11,42 @@
                         <StackLayout >
                             <Image Source="{Binding BarAndHotelsMenuOption.Image}" HeightRequest="75"></Image>
                             <Label Text="{Binding BarAndHotelsMenuOption.Title}" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" HeightRequest="100" TextColor="Black" FontSize="Body" FontAttributes="Bold"></Label>
-                            <Label Text="42 Places"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+                            <Label Text="32 Places"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
                         </StackLayout>
                     </Frame >
                     <Frame Grid.Row="0" Grid.Column="1" HasShadow="True">
                         <StackLayout >
                             <Image Source="{Binding FreeDinningMenuOption.Image}" HeightRequest="75"></Image>
                             <Label Text="{Binding FreeDinningMenuOption.Title}" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" HeightRequest="100" TextColor="Black" FontSize="Body" FontAttributes="Bold"></Label>
-                            <Label Text="15 Places"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+                            <Label Text="5 Places"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
                         </StackLayout>
                     </Frame>
                     <Frame Grid.Row="1" Grid.Column="0" HasShadow="True">
                         <StackLayout>
                             <Image Source="{Binding CafesMenuOption.Image}" HeightRequest="75"></Image>
                             <Label Text="{Binding CafesMenuOption.Title}" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" HeightRequest="100" TextColor="Black" FontSize="Body" FontAttributes="Bold"></Label>
-                            <Label Text="28 Places"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+                            <Label Text="18 Places"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
                         </StackLayout>
                     </Frame>
                     <Frame Grid.Row="1" Grid.Column="1" HasShadow="True">
                         <StackLayout >
                             <Image Source="{Binding NearbyMenuOption.Image}" HeightRequest="75"></Image>
                             <Label Text="{Binding NearbyMenuOption.Title}" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" HeightRequest="100" TextColor="Black" FontSize="Body" FontAttributes="Bold"></Label>
-                            <Label Text="34 Places"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+                            <Label Text="24 Places"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
                         </StackLayout>
                     </Frame>
                     <Frame Grid.Row="2" Grid.Column="0" HasShadow="True">
                         <StackLayout>
                             <Image Source="{Binding FastFoodsMenuOption.Image}" HeightRequest="75"></Image>
                             <Label Text="{Binding FastFoodsMenuOption.Title}" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" HeightRequest="100" TextColor="Black" FontSize="Body" FontAttributes="Bold"></Label>
-                            <Label Text="29 Places"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+                            <Label Text="27 Places"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
                         </StackLayout>
                     </Frame>
                     <Frame Grid.Row="2" Grid.Column="1" HasShadow="True">
                         <StackLayout >
                             <Image Source="{Binding FeaturedFoodsMenuOption.Image}" HeightRequest="75"></Image>
                             <Label Text="{Binding FeaturedFoodsMenuOption.Title}" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" HeightRequest="100" TextColor="Black" FontSize="Body" FontAttributes="Bold"></Label>
-                            <Label Text="21 Places"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+                            <Label Text="11 Places"  HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
                         </StackLayout>
                     </Frame>
                 </Grid>
