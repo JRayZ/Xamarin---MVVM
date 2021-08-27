@@ -7,17 +7,17 @@
             <StackLayout BackgroundColor="White" VerticalOptions="Center" Margin="10">
                 <Image Source="IntecIcono" HeightRequest="150"></Image>
 
-                <Entry Placeholder="NameEntry"  
+                <Entry Placeholder="Name"  
                        HorizontalOptions="FillAndExpand" 
                        Text="{Binding Name}">
                 </Entry>
                 
-                <Entry Placeholder="EmailEntry" 
+                <Entry Placeholder="Email" 
                        HorizontalOptions="FillAndExpand" 
                        Text="{Binding Email}" >
                 </Entry>
                 
-                <Entry Placeholder="PasswordEntry"  
+                <Entry Placeholder="Password"  
                        IsPassword="True" 
                        HorizontalOptions="FillAndExpand" 
                        Text="{Binding Password}">
