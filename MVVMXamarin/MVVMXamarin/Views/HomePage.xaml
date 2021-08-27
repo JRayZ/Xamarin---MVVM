@@ -2,6 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MVVMXamarin.Views.HomePage">
+    
     <ContentPage.Content>
         <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
             <Label Text="Discovery" FontSize="25" HorizontalOptions="Center" Margin="15" TextColor="black" FontAttributes="Bold"></Label>
@@ -53,4 +54,5 @@
             </ScrollView>
         </StackLayout>
     </ContentPage.Content>
+    
 </ContentPage>
