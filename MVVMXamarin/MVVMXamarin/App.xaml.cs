@@ -10,6 +10,8 @@ namespace MVVMXamarin
         {
             InitializeComponent();
 
+            var login = new LoginPage();
+            NavigationPage.SetHasNavigationBar(login, false);
             MainPage = new MainPage();
         }
 
